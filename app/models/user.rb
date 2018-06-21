@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
 
   serialize :add_friend, Array
 
-  def self.add(ids)
+  def self.add_friend(ids)
     ids = ids.empty? ? [0] : ids
     User.where("id IN (?)", ids)
   end

@@ -6,7 +6,7 @@ const Home = () => (
 	<Header textAlign="center" as="h3">
 		Welcome to the <Link to="/posts"> Mine Space, it's mine</Link>
       <Divider>
-        <Link to="/my_friends">My Friends</Link>
+        <Link to="/my_friends">Users</Link>
       </Divider>
   </Header>
 )
